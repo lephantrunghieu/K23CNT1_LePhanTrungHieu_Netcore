@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LpthLesson01", "LpthLesson01\LpthLesson01.csproj", "{1AB40F2E-7529-4C64-924F-A2C8FAC7C12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson01.3", "Lesson01.3\Lesson01.3.csproj", "{2879EC65-60B5-45A1-B51F-142DE71AC67C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1AB40F2E-7529-4C64-924F-A2C8FAC7C12E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AB40F2E-7529-4C64-924F-A2C8FAC7C12E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AB40F2E-7529-4C64-924F-A2C8FAC7C12E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AB40F2E-7529-4C64-924F-A2C8FAC7C12E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2879EC65-60B5-45A1-B51F-142DE71AC67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2879EC65-60B5-45A1-B51F-142DE71AC67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2879EC65-60B5-45A1-B51F-142DE71AC67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2879EC65-60B5-45A1-B51F-142DE71AC67C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16B62D15-DFD5-468B-B706-A6B61427A867}
+	EndGlobalSection
+EndGlobal
