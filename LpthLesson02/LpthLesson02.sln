@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LpthLesson02", "LpthLesson02\LpthLesson02.csproj", "{870C005B-598F-48DC-A84B-22C9DC811689}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870C005B-598F-48DC-A84B-22C9DC811689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{870C005B-598F-48DC-A84B-22C9DC811689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{870C005B-598F-48DC-A84B-22C9DC811689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{870C005B-598F-48DC-A84B-22C9DC811689}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {05C022DD-830C-4B13-A100-3A58C422341E}
+	EndGlobalSection
+EndGlobal

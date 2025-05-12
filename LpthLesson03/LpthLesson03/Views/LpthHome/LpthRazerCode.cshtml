@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewData["Title"] = "LpthRazerCode";
+}
+
+<h1>LpthRazerCode</h1>
+<hr />
+@{
+    var name = "Le Phan Trung Hieu";
+    var email = "lephantrunghieu555@gmail.com";
+    int age = 23;
+}
+<div>
+    <h2>Hien thi du lieu </h2>
+    <p>Name: @name</p>
+    <p>Email: @email</p>
+    <p>Age: @age</p>
+</div>
+<h2>Cau truc if </h2>
+@{
+    var total = 12345;
+    bool isActive = true;
+}
+@{
+    if(total > 10000)
+    {
+        <p>Luong cao</p>
+    }
+    else
+    {
+        <p>Luong thap</p>
+    }
+
+    if (isActive == true)
+    {
+        <p class="badge text-bg-success">Hoat dong</p>
+    }
+    else
+    {
+        <p class="badge text-bg-warning">Tam khoa</p>
+    }
+}
+<h2>Cau truc lap</h2>
+@{
+    for(int i=0; i<10; i++)
+    {
+        if (i % 2 ==0)
+        {
+            <span class="btn btn-danger">@i</span>
+        }
+        else
+        {
+            <span class="btn btn-success">@i</span>
+        }
+    }
+}
+}
+

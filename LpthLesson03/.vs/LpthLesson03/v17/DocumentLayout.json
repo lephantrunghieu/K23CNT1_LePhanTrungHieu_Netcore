@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson03\\lpthlesson03\\views\\shared\\_lpthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|solutionrelative:lpthlesson03\\views\\shared\\_lpthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson03\\lpthlesson03\\views\\shared\\_lpthfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|solutionrelative:lpthlesson03\\views\\shared\\_lpthfooter.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson03\\lpthlesson03\\views\\lpthhome\\lpthrazercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|solutionrelative:lpthlesson03\\views\\lpthhome\\lpthrazercode.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson03\\lpthlesson03\\views\\lpthhome\\lpthabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|solutionrelative:lpthlesson03\\views\\lpthhome\\lpthabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson03\\lpthlesson03\\controllers\\lpthhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|solutionrelative:lpthlesson03\\controllers\\lpthhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson03\\lpthlesson03\\views\\lpthhome\\lpthprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AD9D105C-5469-4C1F-9F27-DEE69C3F1FC9}|LpthLesson03\\LpthLesson03.csproj|solutionrelative:lpthlesson03\\views\\lpthhome\\lpthprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LpthFooter.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\Shared\\_LpthFooter.cshtml",
+              "RelativeDocumentMoniker": "LpthLesson03\\Views\\Shared\\_LpthFooter.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\Shared\\_LpthFooter.cshtml",
+              "RelativeToolTip": "LpthLesson03\\Views\\Shared\\_LpthFooter.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T02:41:26.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LpthLayout.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\Shared\\_LpthLayout.cshtml",
+              "RelativeDocumentMoniker": "LpthLesson03\\Views\\Shared\\_LpthLayout.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\Shared\\_LpthLayout.cshtml",
+              "RelativeToolTip": "LpthLesson03\\Views\\Shared\\_LpthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T02:18:50.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LpthRazerCode.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\LpthHome\\LpthRazerCode.cshtml",
+              "RelativeDocumentMoniker": "LpthLesson03\\Views\\LpthHome\\LpthRazerCode.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\LpthHome\\LpthRazerCode.cshtml",
+              "RelativeToolTip": "LpthLesson03\\Views\\LpthHome\\LpthRazerCode.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T02:02:31.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LpthProfile.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\LpthHome\\LpthProfile.cshtml",
+              "RelativeDocumentMoniker": "LpthLesson03\\Views\\LpthHome\\LpthProfile.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\LpthHome\\LpthProfile.cshtml",
+              "RelativeToolTip": "LpthLesson03\\Views\\LpthHome\\LpthProfile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T01:57:23.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LpthAbout.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\LpthHome\\LpthAbout.cshtml",
+              "RelativeDocumentMoniker": "LpthLesson03\\Views\\LpthHome\\LpthAbout.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Views\\LpthHome\\LpthAbout.cshtml",
+              "RelativeToolTip": "LpthLesson03\\Views\\LpthHome\\LpthAbout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-12T01:43:16.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LpthHomeController.cs",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Controllers\\LpthHomeController.cs",
+              "RelativeDocumentMoniker": "LpthLesson03\\Controllers\\LpthHomeController.cs",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson03\\LpthLesson03\\Controllers\\LpthHomeController.cs",
+              "RelativeToolTip": "LpthLesson03\\Controllers\\LpthHomeController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA1wCMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T01:27:15.463Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
