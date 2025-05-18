@@ -1,0 +1,54 @@
+﻿@model LpthLesson04.Models.LpthBook
+@{
+    ViewData["Title"] = "LpthCreate";
+}
+
+<h1>LpthCreate</h1>
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="LpthCreateSubmit" method="post">
+    <div>
+        <label asp-for="LpthId"></label>
+        <input asp-for="LpthId" class="form-control" />
+        <span asp-validation-for="LpthId" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="LpthTitle"></label>
+        <input asp-for="LpthTitle" class="form-control" />
+        <span asp-validation-for="LpthTitle" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="LpthDescription"></label>
+        <textarea asp-for="LpthDescription" class="form-control"></textarea>
+        <span asp-validation-for="LpthDescription" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="LpthImage"></label>
+        <input asp-for="LpthImage" class="form-control" />
+        <span asp-validation-for="LpthImage" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="LpthPrice"></label>
+        <input asp-for="LpthPrice" class="form-control" />
+        <span asp-validation-for="LpthPrice" class="text-danger"></span>
+    </div>
+
+    <div>
+        <label asp-for="LpthPage"></label>
+        <input asp-for="LpthPage" class="form-control" />
+        <span asp-validation-for="LpthPage" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Thêm sách</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

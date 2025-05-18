@@ -1,0 +1,37 @@
+﻿@model IEnumerable<LpthLesson04.Models.LpthBook>
+@{
+    ViewData["Title"] = "List Book";
+}
+
+<h1>Thong tin cac cuon sasch</h1>
+<a href="/lpthbook/lpthcreate" class="btn btn-primary">Them moi</a>
+<a href="/lpthbook/lpthedit" class="btn btn-primary">Chinh sua</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>BookId</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Image</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(LpthBook lpthItem in Model)
+        {
+            <tr>
+                <td>@lpthItem.LpthId</td>
+                <td>@lpthItem.LpthTitle</td>
+                <td>@lpthItem.LpthDescription</td>
+                <td>
+                    <img src="@lpthItem.LpthImage" alt="@lpthItem.LpthTitle" style="width:100px; height:150px" />
+                    @lpthItem.LpthImage</td>
+                <td>@lpthItem.LpthPrice</td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+
+<a href="/lpthbook/lpthcreate" class="btn btn-primary">Them moi</a>
+<a href="/lpthbook/lpthedit" class="btn btn-primary">Chinh sua</a>

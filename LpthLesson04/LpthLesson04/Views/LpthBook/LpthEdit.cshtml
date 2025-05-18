@@ -1,0 +1,37 @@
+﻿@model LpthLesson04.Models.LpthBook
+@{
+    ViewData["Title"] = "Chỉnh sửa sách";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="LpthEditSubmit" method="post">
+    <input asp-for="LpthId" type="hidden" />
+
+    <div>
+        <label asp-for="LpthTitle"></label>
+        <input asp-for="LpthTitle" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="LpthDescription"></label>
+        <textarea asp-for="LpthDescription" class="form-control"></textarea>
+    </div>
+
+    <div>
+        <label asp-for="LpthImage"></label>
+        <input asp-for="LpthImage" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="LpthPrice"></label>
+        <input asp-for="LpthPrice" class="form-control" />
+    </div>
+
+    <div>
+        <label asp-for="LpthPage"></label>
+        <input asp-for="LpthPage" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-success">Lưu thay đổi</button>
+</form>
