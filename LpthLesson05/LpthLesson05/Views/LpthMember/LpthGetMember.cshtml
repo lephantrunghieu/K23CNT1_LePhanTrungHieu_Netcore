@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewData["Title"] = "Thong tin sinh vien";
+    var lpthMember = ViewBag.lpthMember as LpthLesson05.Models.Data_Models.LpthMember;
+}
+
+<div class="alert alert-danger">
+    <h1>Thong tin member</h1>
+    <hr />
+    <p>Member Id: @ViewBag.lpthMember.LpthMemberId</p>
+    <p>UserName: @lpthMember.LpthUserName </p>
+    <p>FullName: @lpthMember.LpthFullName </p>
+    <p>Password: @lpthMember.LpthPassword </p>
+    <p>Email: @lpthMember.LpthEmail </p>
+</div>
+
+
