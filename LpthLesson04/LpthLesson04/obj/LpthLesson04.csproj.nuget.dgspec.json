@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj": {}
+    "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj": {}
   },
   "projects": {
-    "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj": {
+    "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj",
+        "projectUniqueName": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj",
         "projectName": "LpthLesson04",
-        "projectPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj",
+        "projectPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\obj\\",
+        "outputPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,41 @@
+﻿@model LpthLab06.Models.LpthEmployee
+@{
+    ViewData["Title"] = "Thêm nhân viên mới";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="LpthCreateSubmit" method="post">
+    <div class="mb-3">
+        <label asp-for="LpthName" class="form-label">Họ tên</label>
+        <input asp-for="LpthName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LpthBirthDay" class="form-label">Ngày sinh</label>
+        <input asp-for="LpthBirthDay" class="form-control" type="date" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LpthEmail" class="form-label">Email</label>
+        <input asp-for="LpthEmail" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LpthPhone" class="form-label">Điện thoại</label>
+        <input asp-for="LpthPhone" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LpthSalary" class="form-label">Lương</label>
+        <input asp-for="LpthSalary" class="form-control" type="number" step="0.01" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="LpthStatus" class="form-check-input" />
+        <label asp-for="LpthStatus" class="form-check-label">Đang làm việc</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">Thêm</button>
+    <a href="/LpthEmployee/LpthEmployeeList" class="btn btn-secondary">Quay lại</a>
+</form>

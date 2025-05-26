@@ -1,0 +1,40 @@
+﻿@model List<LpthLab06.Models.LpthEmployee>
+@{
+    ViewData["Title"] = "Danh sách nhân viên";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<a href="/LpthEmployee/LpthCreate" class="btn btn-primary mb-3">Thêm nhân viên mới</a>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Họ tên</th>
+            <th>Ngày sinh</th>
+            <th>Email</th>
+            <th>Điện thoại</th>
+            <th>Lương</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var emp in Model)
+        {
+            <tr>
+                <td>@emp.LpthId</td>
+                <td>@emp.LpthName</td>
+                <td>@emp.LpthBirthDay.ToString("dd/MM/yyyy")</td>
+                <td>@emp.LpthEmail</td>
+                <td>@emp.LpthPhone</td>
+                <td>@emp.LpthSalary.ToString("C0")</td>
+                <td>@(emp.LpthStatus ? "Đang làm" : "Nghỉ")</td>
+                <td>
+                    <a href="/LpthEmployee/LpthEdit/@emp.LpthId" class="btn btn-warning btn-sm">Sửa</a>
+                    <a href="/LpthEmployee/LpthDelete/@emp.LpthId" class="btn btn-danger btn-sm" onclick="return confirm('Bạn có chắc chắn muốn xóa nhân viên này?');">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

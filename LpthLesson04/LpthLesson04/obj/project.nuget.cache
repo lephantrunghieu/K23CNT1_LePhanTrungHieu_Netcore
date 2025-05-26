@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7n0ZTnnvM0w=",
+  "dgSpecHash": "63iMe2wKcI0=",
   "success": true,
-  "projectFilePath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj",
+  "projectFilePath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson04\\LpthLesson04\\LpthLesson04.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
