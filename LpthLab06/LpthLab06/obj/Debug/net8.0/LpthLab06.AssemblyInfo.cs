@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LpthLab06")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa7fd5b96f7451696538227b9dd7a653c0fd9676")]
 [assembly: System.Reflection.AssemblyProductAttribute("LpthLab06")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LpthLab06")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

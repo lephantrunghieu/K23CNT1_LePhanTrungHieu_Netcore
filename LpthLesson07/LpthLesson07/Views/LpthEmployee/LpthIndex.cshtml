@@ -1,0 +1,82 @@
+﻿@model IEnumerable<LpthLesson07.Models.LpthEmployee>
+
+@{
+    ViewData["Title"] = "LpthIndex";
+    Layout = "~/Views/Shared/_LpthLayout.cshtml";
+}
+
+<h1>ĐANH SÁCH NHÂN VIÊN</h1>
+
+<p>
+    <a asp-action="LpthCreate" class="btn btn-primary">Thêm mới</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthStatus)
+            </th>
+            <th>Chức năng</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthBirthDay)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthEmail)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthPhone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthSalary)
+                </td>
+                <td>
+                    @{
+                        if (item.LpthStatus == true)
+                        {
+                            <span class="badge bg-success">Hoạt động</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Không hoạt động</span>
+                        }
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "LpthEdit", new { id = item.LpthId }) |
+                    @Html.ActionLink("Details", "LpthDetails", new { id = item.LpthId }) |
+                    @Html.ActionLink("Delete", "LpthDelete", new { id = item.LpthId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

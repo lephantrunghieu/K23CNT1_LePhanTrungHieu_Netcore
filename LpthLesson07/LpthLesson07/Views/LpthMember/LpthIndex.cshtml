@@ -1,0 +1,44 @@
+﻿@model IEnumerable<LpthLesson07.Models.LpthMember>
+
+@{
+    ViewData["Title"] = "LpthIndex";
+    Layout = "~/Views/Shared/_LpthLayout.cshtml";
+}
+
+<h1>LpthIndex</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().LpthId)</th>
+            <th>@Html.DisplayNameFor(model => model.First().LpthName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().LpthUserName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().LpthPassword)</th>
+            <th>@Html.DisplayNameFor(model => model.First().LpthEmail)</th>
+            <th>@Html.DisplayNameFor(model => model.First().LpthStatus)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.LpthId)</td>
+                <td>@Html.DisplayFor(modelItem => item.LpthName)</td>
+                <td>@Html.DisplayFor(modelItem => item.LpthUserName)</td>
+                <td>@Html.DisplayFor(modelItem => item.LpthPassword)</td>
+                <td>@Html.DisplayFor(modelItem => item.LpthEmail)</td>
+                <td>@Html.DisplayFor(modelItem => item.LpthStatus)</td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.LpthId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.LpthId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.LpthId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

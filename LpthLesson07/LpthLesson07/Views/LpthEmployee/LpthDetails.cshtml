@@ -1,0 +1,61 @@
+﻿@model LpthLesson07.Models.LpthEmployee
+
+@{
+    ViewData["Title"] = "LpthDetails";
+    Layout = "~/Views/Shared/_LpthLayout.cshtml";
+}
+
+<h1>LpthDetails</h1>
+
+<div>
+    <h4>LpthEmployee</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthBirthDay)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthBirthDay)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthEmail)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthEmail)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthPhone)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthPhone)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthSalary)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthSalary)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LpthStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LpthStatus)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "LpthEdit", new { id = Model.LpthId }) |
+    <a asp-action="LpthIndex">Back to List</a>
+</div>
