@@ -1,0 +1,65 @@
+﻿@model IEnumerable<LpthLesson07._2.Models.LpthEmployee>
+
+@{
+    ViewData["Title"] = "Danh sach nhan vien";
+}
+
+<h1>Danh sach nhan vien </h1>
+
+<p>
+    <a asp-action="LpthCreate" class="btn btn-primary">Them moi</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthBirthDay)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthEmail)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthPhone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthSalary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthStatus)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.LpthName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LpthBirthDay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LpthEmail)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LpthPhone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LpthSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LpthStatus)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "LpthEdit", new {  id=item.LpthId }) |
+                    @Html.ActionLink("Details", "LpthDetails", new { id = item.LpthId }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

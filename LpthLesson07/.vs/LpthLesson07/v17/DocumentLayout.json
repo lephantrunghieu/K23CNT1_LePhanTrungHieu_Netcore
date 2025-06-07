@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\",
+  "WorkspaceRootPath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\shared\\_lpthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\shared\\_lpthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\shared\\_lpthlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthmember\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthmember\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthmember\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\models\\lpthmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\models\\lpthmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\models\\lpthmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthhome\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthhome\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthhome\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthhome\\lpthabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthhome\\lpthabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthhome\\lpthabout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthemployee\\lpthindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthemployee\\lpthedit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthemployee\\lpthdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthemployee\\lpthdelete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|d:\\k23cnt1_lephantrunghieu_netcore\\k23cnt1_lephantrunghieu_netcore\\lpthlesson07\\lpthlesson07\\views\\lpthemployee\\lpthcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3C828E69-1A6D-4FEB-BE56-BB283E004890}|LpthLesson07\\LpthLesson07.csproj|solutionrelative:lpthlesson07\\views\\lpthemployee\\lpthcreate.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -64,9 +64,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -77,144 +77,133 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:13:28.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:13:28.15Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "_LpthLayout.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\Shared\\_LpthLayout.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\Shared\\_LpthLayout.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\Shared\\_LpthLayout.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\Shared\\_LpthLayout.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\Shared\\_LpthLayout.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\Shared\\_LpthLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:13:20.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:13:20.799Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "LpthMember.cs",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Models\\LpthMember.cs",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Models\\LpthMember.cs",
               "RelativeDocumentMoniker": "LpthLesson07\\Models\\LpthMember.cs",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Models\\LpthMember.cs",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Models\\LpthMember.cs",
               "RelativeToolTip": "LpthLesson07\\Models\\LpthMember.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T12:10:06.536Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:10:06.536Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "LpthIndex.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthMember\\LpthIndex.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthMember\\LpthIndex.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthMember\\LpthIndex.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthMember\\LpthIndex.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthMember\\LpthIndex.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthMember\\LpthIndex.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAADwvxYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:05:15.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:05:15.799Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "LpthIndex.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthIndex.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthIndex.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthHome\\LpthIndex.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthIndex.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthIndex.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthHome\\LpthIndex.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:04:39.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:04:39.143Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "LpthAbout.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthAbout.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthAbout.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthHome\\LpthAbout.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthAbout.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthHome\\LpthAbout.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthHome\\LpthAbout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:03:35.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:03:35.813Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "LpthEdit.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthEdit.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthEdit.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthEmployee\\LpthEdit.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthEdit.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthEdit.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthEmployee\\LpthEdit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:02:21.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:02:21.658Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "LpthDetails.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDetails.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDetails.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthEmployee\\LpthDetails.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDetails.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDetails.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthEmployee\\LpthDetails.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAwwCsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:01:52.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:01:52.634Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "LpthDelete.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDelete.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDelete.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthEmployee\\LpthDelete.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDelete.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthDelete.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthEmployee\\LpthDelete.cshtml",
               "ViewState": "AgIAABcAAAAAAAAAAAAwwCgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:01:19.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:01:19.764Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "LpthCreate.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthCreate.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthCreate.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthEmployee\\LpthCreate.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthCreate.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthCreate.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthEmployee\\LpthCreate.cshtml",
               "ViewState": "AgIAABQAAAAAAAAAAAAwwCMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T12:00:21.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T12:00:21.733Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "LpthIndex.cshtml",
-              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthIndex.cshtml",
+              "DocumentMoniker": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthIndex.cshtml",
               "RelativeDocumentMoniker": "LpthLesson07\\Views\\LpthEmployee\\LpthIndex.cshtml",
-              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthIndex.cshtml",
+              "ToolTip": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson07\\LpthLesson07\\Views\\LpthEmployee\\LpthIndex.cshtml",
               "RelativeToolTip": "LpthLesson07\\Views\\LpthEmployee\\LpthIndex.cshtml",
               "ViewState": "AgIAACYAAAAAAAAAAAAwwDAAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-02T11:59:39.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T11:59:39.252Z"
             }
           ]
         }

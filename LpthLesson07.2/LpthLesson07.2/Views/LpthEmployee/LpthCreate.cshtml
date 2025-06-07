@@ -1,0 +1,53 @@
+﻿@model LpthLesson07._2.Models.LpthEmployee
+
+@{
+    ViewData["Title"] = "Them moi nhan vien";
+}
+
+<h1>Them moi nhan vien</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LpthCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LpthName" class="control-label"></label>
+                <input asp-for="LpthName" class="form-control" />
+                <span asp-validation-for="LpthName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthBirthDay" class="control-label"></label>
+                <input asp-for="LpthBirthDay" class="form-control" />
+                <span asp-validation-for="LpthBirthDay" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthEmail" class="control-label"></label>
+                <input asp-for="LpthEmail" class="form-control" />
+                <span asp-validation-for="LpthEmail" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthPhone" class="control-label"></label>
+                <input asp-for="LpthPhone" class="form-control" />
+                <span asp-validation-for="LpthPhone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthSalary" class="control-label"></label>
+                <input asp-for="LpthSalary" class="form-control" />
+                <span asp-validation-for="LpthSalary" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="LpthStatus" /> @Html.DisplayNameFor(model => model.LpthStatus)
+                </label>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="LpthIndex">Back to List</a>
+</div>
+
