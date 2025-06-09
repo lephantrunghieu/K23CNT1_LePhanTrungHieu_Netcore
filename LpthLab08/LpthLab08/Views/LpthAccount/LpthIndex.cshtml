@@ -1,0 +1,48 @@
+﻿@model List<LpthLab08.Models.LpthAccount>
+
+@{
+    ViewData["Title"] = "LpthIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Họ và tên</th>
+            <th>Địa chỉ Email</th>
+            <th>Số điện thoại</th>
+            <th>Địa chỉ thường trú</th>
+            <th>Ảnh đại diện</th>
+            <th>Ngày sinh</th>
+            <th>Mật khẩu</th>
+            <th>Link Facebook cá nhân</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.LpthId</td>
+                <td>@item.LpthFullName</td>
+                <td>@item.LpthEmail</td>
+                <td>@item.LpthPhone</td>
+                <td>@item.LpthAddress</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(item.LpthAvatar))
+                    {
+                        <img src="~/images/@item.LpthAvatar" alt="Avatar" width="50" />
+                    }
+                </td>
+                <td>@item.LpthBirthday.ToShortDateString()</td>
+                <td>@item.LpthPassword</td>
+                <td><a href="@item.LpthFacebook" target="_blank">Facebook</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

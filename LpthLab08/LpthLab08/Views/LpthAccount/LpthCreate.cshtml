@@ -1,0 +1,83 @@
+﻿@model LpthLab08.Models.LpthAccount
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h2>Create</h2>
+
+<h4>Account</h4>
+<hr />
+
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Create" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label asp-for="LpthFullName" class="control-label"></label>
+                <input asp-for="LpthFullName" class="form-control" />
+                <span asp-validation-for="LpthFullName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthEmail" class="control-label"></label>
+                <input asp-for="LpthEmail" class="form-control" />
+                <span asp-validation-for="LpthEmail" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthPhone" class="control-label"></label>
+                <input asp-for="LpthPhone" class="form-control" />
+                <span asp-validation-for="LpthPhone" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthAddress" class="control-label"></label>
+                <input asp-for="LpthAddress" class="form-control" />
+                <span asp-validation-for="LpthAddress" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthAvatar" class="control-label"></label>
+                <input asp-for="LpthAvatar" class="form-control" />
+                <span asp-validation-for="LpthAvatar" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthBirthday" class="control-label"></label>
+                <input asp-for="LpthBirthday" class="form-control" type="date" />
+                <span asp-validation-for="LpthBirthday" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthGender" class="control-label"></label>
+                <input asp-for="LpthGender" class="form-control" />
+                <span asp-validation-for="LpthGender" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthPassword" class="control-label"></label>
+                <input asp-for="LpthPassword" class="form-control" />
+                <span asp-validation-for="LpthPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="LpthFacebook" class="control-label"></label>
+                <input asp-for="LpthFacebook" class="form-control" />
+                <span asp-validation-for="LpthFacebook" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Create" class="btn btn-success" />
+                <a asp-action="LpthIndex" class="btn btn-secondary">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
