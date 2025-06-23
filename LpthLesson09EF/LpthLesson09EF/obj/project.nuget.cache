@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EivIQ6juu6s=",
+  "dgSpecHash": "WcoO7IfDqxg=",
   "success": true,
-  "projectFilePath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson09EF\\LpthLesson09EF\\LpthLesson09EF.csproj",
+  "projectFilePath": "D:\\K23CNT1_LePhanTrungHieu_Netcore\\K23CNT1_LePhanTrungHieu_Netcore\\LpthLesson09EF\\LpthLesson09EF\\LpthLesson09EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

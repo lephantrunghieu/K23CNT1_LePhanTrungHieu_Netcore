@@ -1,0 +1,36 @@
+﻿@model LpthLesson09EF.Models.Category
+
+@{
+	ViewData["Title"] = "Them moi danh muc loai";
+}
+<div class="row">
+	<div class="col-md-6">
+		<form asp-action="LpthCreate">
+			<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+			<div class="card">
+				<div class="card-header">
+					<h1>@ViewData["Title"]</h1>
+				</div>
+				<div class="card-body">
+					<div class="form-group my-1">
+						<label asp-for="CategoryName" class="control-label mb-1"></label>
+						<input asp-for="CategoryName" class="form-control" />
+						<span asp-validation-for="CategoryName" class="text-danger"></span>
+					</div>
+				</div>
+				<div class="card-footer">
+					<div class="form-group">
+						<input type="submit" value="Them moi" name="btnLpthCreate" class="btn btn-primary" />
+						<a asp-action="LpthIndex" class="btn btn-danger">Quay lai</a>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}

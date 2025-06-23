@@ -19,21 +19,31 @@ namespace LpthLesson09EF.Controllers
         }
 
         // GET: LpthPublishers
-        public async Task<IActionResult> LpthIndex()
+        public async Task<IActionResult> LpthIndex(string keyword)
         {
-            return View(await _context.Publishers.ToListAsync());
+            ViewBag.Keyword = keyword; // Trả lại từ khóa cho View để hiển thị lại trong ô input
+
+            var lpthPublishers = from p in _context.Publishers
+                                 select p;
+
+            if (!string.IsNullOrEmpty(keyword))
+            {
+                lpthPublishers = lpthPublishers.Where(p => p.PublisherName!.Contains(keyword));
+            }
+
+            return View(await lpthPublishers.ToListAsync());
         }
 
-        // GET: LpthPublishers/Details/5
-        public async Task<IActionResult> Details(int? id)
+        // GET: LpthPublishers/LpthDetails/5
+        public async Task<IActionResult> LpthDetails(int? lpthid)
         {
-            if (id == null)
+            if (lpthid == null)
             {
                 return NotFound();
             }
 
             var publisher = await _context.Publishers
-                .FirstOrDefaultAsync(m => m.PublisherId == id);
+                .FirstOrDefaultAsync(m => m.PublisherId == lpthid);
             if (publisher == null)
             {
                 return NotFound();
@@ -42,37 +52,35 @@ namespace LpthLesson09EF.Controllers
             return View(publisher);
         }
 
-        // GET: LpthPublishers/Create
-        public IActionResult Create()
+        // GET: LpthPublishers/LpthCreate
+        public IActionResult LpthCreate()
         {
             return View();
         }
 
-        // POST: LpthPublishers/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: LpthPublishers/LpthCreate
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
+        public async Task<IActionResult> LpthCreate([Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(publisher);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof( LpthIndex));
+                return RedirectToAction(nameof(LpthIndex));
             }
             return View(publisher);
         }
 
-        // GET: LpthPublishers/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        // GET: LpthPublishers/LpthEdit/5
+        public async Task<IActionResult> LpthEdit(int? lpthid)
         {
-            if (id == null)
+            if (lpthid == null)
             {
                 return NotFound();
             }
 
-            var publisher = await _context.Publishers.FindAsync(id);
+            var publisher = await _context.Publishers.FindAsync(lpthid);
             if (publisher == null)
             {
                 return NotFound();
@@ -80,14 +88,12 @@ namespace LpthLesson09EF.Controllers
             return View(publisher);
         }
 
-        // POST: LpthPublishers/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        // POST: LpthPublishers/LpthEdit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
+        public async Task<IActionResult> LpthEdit(int lpthid, [Bind("PublisherId,PublisherName,Phone,Address")] Publisher publisher)
         {
-            if (id != publisher.PublisherId)
+            if (lpthid != publisher.PublisherId)
             {
                 return NotFound();
             }
@@ -115,16 +121,16 @@ namespace LpthLesson09EF.Controllers
             return View(publisher);
         }
 
-        // GET: LpthPublishers/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // GET: LpthPublishers/LpthDelete/5
+        public async Task<IActionResult> LpthDelete(int? lpthid)
         {
-            if (id == null)
+            if (lpthid == null)
             {
                 return NotFound();
             }
 
             var publisher = await _context.Publishers
-                .FirstOrDefaultAsync(m => m.PublisherId == id);
+                .FirstOrDefaultAsync(m => m.PublisherId == lpthid);
             if (publisher == null)
             {
                 return NotFound();
@@ -133,12 +139,12 @@ namespace LpthLesson09EF.Controllers
             return View(publisher);
         }
 
-        // POST: LpthPublishers/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: LpthPublishers/LpthDeleteConfirmed/5
+        [HttpPost, ActionName("LpthDelete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> LpthDeleteConfirmed(int lpthid)
         {
-            var publisher = await _context.Publishers.FindAsync(id);
+            var publisher = await _context.Publishers.FindAsync(lpthid);
             if (publisher != null)
             {
                 _context.Publishers.Remove(publisher);

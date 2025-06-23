@@ -1,0 +1,34 @@
+﻿@model LpthLesson09EF.Models.Publisher
+
+@{
+    ViewData["Title"] = "Chi tiet nha xuat ban";
+}
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="my-2">@ViewData["Title"]</h1>
+            </div>
+            <div class="card-body">
+                <dl class="row">
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.PublisherId)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.PublisherId)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.PublisherName)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.PublisherName)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Phone)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Phone)</dd>
+
+                    <dt class="col-sm-4">@Html.DisplayNameFor(model => model.Address)</dt>
+                    <dd class="col-sm-8">@Html.DisplayFor(model => model.Address)</dd>
+                </dl>
+            </div>
+            <div class="card-footer">
+                <a asp-action="LpthEdit" asp-route-lpthid="@Model?.PublisherId" class="btn btn-primary">Sửa</a>
+                <a asp-action="LpthIndex" class="btn btn-secondary">Quay lại</a>
+            </div>
+        </div>
+    </div>
+</div>

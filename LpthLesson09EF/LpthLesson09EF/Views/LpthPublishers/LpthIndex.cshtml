@@ -1,47 +1,53 @@
 ﻿@model IEnumerable<LpthLesson09EF.Models.Publisher>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Danh sach nha xuat ban";
 }
 
-<h1>Index</h1>
+<h1 class="text-center">@ViewData["Title"]</h1>
+
+<!-- Nếu bạn có hỗ trợ tìm kiếm thì thêm form này -->
+<form asp-action="LpthIndex" method="get" class="form-inline mb-3">
+    <div class="form-group">
+        <input type="text" name="keyword" class="form-control mr-2" placeholder="Nhập tên NXB"
+               value="@ViewBag.Keyword" />
+        <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+    </div>
+</form>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="LpthCreate" class="btn btn-success">Thêm mới</a>
 </p>
-<table class="table">
+
+<table class="table table-bordered mt-3">
     <thead>
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.PublisherName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Address)
-            </th>
-            <th></th>
+            <th>@Html.DisplayNameFor(model => model.PublisherId)</th>
+            <th>@Html.DisplayNameFor(model => model.PublisherName)</th>
+            <th>@Html.DisplayNameFor(model => model.Phone)</th>
+            <th>@Html.DisplayNameFor(model => model.Address)</th>
+            <th class="text-center">Chức năng</th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.PublisherName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Address)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.PublisherId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.PublisherId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.PublisherId">Delete</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.PublisherId)</td>
+                <td>@Html.DisplayFor(modelItem => item.PublisherName)</td>
+                <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                <td>@Html.DisplayFor(modelItem => item.Address)</td>
+                <td class="text-center">
+                    <a asp-action="LpthEdit" asp-route-lpthid="@item.PublisherId" class="btn btn-primary">Sửa</a>
+                    <a asp-action="LpthDetails" asp-route-lpthid="@item.PublisherId" class="btn btn-info">Xem</a>
+                    <a asp-action="LpthDelete" asp-route-lpthid="@item.PublisherId" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
     </tbody>
+    <tfoot>
+        <tr>
+            <th colspan="5">Tổng số: @Model.Count()</th>
+        </tr>
+    </tfoot>
 </table>

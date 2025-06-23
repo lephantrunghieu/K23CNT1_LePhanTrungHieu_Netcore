@@ -17,85 +17,85 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LpthLesson09EF
 build_property.RootNamespace = LpthLesson09EF
-build_property.ProjectDir = D:\K23CNT1_LePhanTrungHieu_Netcore\LpthLesson09EF\LpthLesson09EF\
+build_property.ProjectDir = D:\K23CNT1_LePhanTrungHieu_Netcore\K23CNT1_LePhanTrungHieu_Netcore\LpthLesson09EF\LpthLesson09EF\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\K23CNT1_LePhanTrungHieu_Netcore\LpthLesson09EF\LpthLesson09EF
+build_property.MSBuildProjectDirectory = D:\K23CNT1_LePhanTrungHieu_Netcore\K23CNT1_LePhanTrungHieu_Netcore\LpthLesson09EF\LpthLesson09EF
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcQ3JlYXRlLmNzaHRtbA==
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/LpthCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcTHB0aENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcRGVsZXRlLmNzaHRtbA==
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/LpthDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcTHB0aERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcRGV0YWlscy5jc2h0bWw=
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/LpthDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcTHB0aERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcRWRpdC5jc2h0bWw=
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/LpthEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcTHB0aEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/LpthIndex.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthCategories/LpthIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aENhdGVnb3JpZXNcTHB0aEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthHome/LpthAbout.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthHome/LpthAbout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aEhvbWVcTHB0aEFib3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthHome/LpthIndex.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthHome/LpthIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aEhvbWVcTHB0aEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcQ3JlYXRlLmNzaHRtbA==
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/LpthCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcTHB0aENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcRGVsZXRlLmNzaHRtbA==
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/LpthDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcTHB0aERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcRGV0YWlscy5jc2h0bWw=
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/LpthDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcTHB0aERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcRWRpdC5jc2h0bWw=
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/LpthEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcTHB0aEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/LpthIndex.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/LpthPublishers/LpthIndex.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTHB0aFB1Ymxpc2hlcnNcTHB0aEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/LpthError.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/LpthError.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXExwdGhFcnJvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/_LpthNavBar.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/_LpthNavBar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9McHRoTmF2QmFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/_ViewImports.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/_ViewStart.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/_LpthLayout.cshtml]
+[D:/K23CNT1_LePhanTrungHieu_Netcore/K23CNT1_LePhanTrungHieu_Netcore/LpthLesson09EF/LpthLesson09EF/Views/Shared/_LpthLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9McHRoTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = b-q97y31nq0g

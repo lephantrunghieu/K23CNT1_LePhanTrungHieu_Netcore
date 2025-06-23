@@ -1,0 +1,42 @@
+﻿@model LpthLesson09EF.Models.Category
+
+@{
+    ViewData["Title"] = "Xem thông tin chi tiết";
+}
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+            <div class="card shadow rounded-3 border-0">
+                <div class="card-header bg-primary text-white text-center">
+                    <h3 class="my-2">@ViewData["Title"]</h3>
+                </div>
+
+                <div class="card-body px-4">
+                    <div class="mb-3">
+                        @Html.LabelFor(model => model.CategoryId, htmlAttributes: new { @class = "form-label fw-bold" })
+                        <div class="form-control-plaintext border rounded bg-light px-3">
+                            @Html.DisplayFor(model => model.CategoryId)
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        @Html.LabelFor(model => model.CategoryName, htmlAttributes: new { @class = "form-label fw-bold" })
+                        <div class="form-control-plaintext border rounded bg-light px-3">
+                            @Html.DisplayFor(model => model.CategoryName)
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-footer text-center bg-light">
+                    <a asp-action="LpthEdit" asp-route-lpthid="@Model?.CategoryId" class="btn btn-success me-2">
+                        <i class="bi bi-pencil-square"></i> Chỉnh sửa
+                    </a>
+                    <a asp-action="LpthIndex" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left"></i> Quay lại
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

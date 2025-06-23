@@ -19,21 +19,30 @@ namespace LpthLesson09EF.Controllers
         }
 
         // GET: LpthCategories
-        public async Task<IActionResult> LpthIndex()
+        public async Task<IActionResult> LpthIndex(string keyword)
         {
-            return View(await _context.Categories.ToListAsync());
+            var lpthCategories = from c in _context.Categories
+                                 select c;
+
+            if (!string.IsNullOrEmpty(keyword))
+            {
+                lpthCategories = lpthCategories.Where(c => c.CategoryName!.Contains(keyword));
+            }
+
+            return View(await lpthCategories.ToListAsync());
         }
 
+
         // GET: LpthCategories/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> LpthDetails(int? lpthid)
         {
-            if (id == null)
+            if (lpthid == null)
             {
                 return NotFound();
             }
 
             var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
+                .FirstOrDefaultAsync(m => m.CategoryId == lpthid);
             if (category == null)
             {
                 return NotFound();
@@ -43,7 +52,7 @@ namespace LpthLesson09EF.Controllers
         }
 
         // GET: LpthCategories/Create
-        public IActionResult Create()
+        public IActionResult LpthCreate()
         {
             return View();
         }
@@ -53,7 +62,7 @@ namespace LpthLesson09EF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CategoryId,CategoryName")] Category category)
+        public async Task<IActionResult> LpthCreate([Bind("CategoryId,CategoryName")] Category category)
         {
             if (ModelState.IsValid)
             {
@@ -65,7 +74,7 @@ namespace LpthLesson09EF.Controllers
         }
 
         // GET: LpthCategories/Edit/5
-        public async Task<IActionResult> Edit(int? lpthId)
+        public async Task<IActionResult> LpthEdit(int? lpthId)
         {
             if (lpthId == null)
             {
@@ -85,7 +94,7 @@ namespace LpthLesson09EF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int lpthId, [Bind("CategoryId,CategoryName")] Category category)
+        public async Task<IActionResult> LpthEdit(int lpthId, [Bind("CategoryId,CategoryName")] Category category)
         {
             if (lpthId != category.CategoryId)
             {
@@ -115,16 +124,16 @@ namespace LpthLesson09EF.Controllers
             return View(category);
         }
 
-        // GET: LpthCategories/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        // GET: LpthCategories/LpthDelete/5
+        public async Task<IActionResult> LpthDelete(int? lpthid)
         {
-            if (id == null)
+            if (lpthid == null)
             {
                 return NotFound();
             }
 
             var category = await _context.Categories
-                .FirstOrDefaultAsync(m => m.CategoryId == id);
+                .FirstOrDefaultAsync(m => m.CategoryId == lpthid);
             if (category == null)
             {
                 return NotFound();
@@ -133,12 +142,12 @@ namespace LpthLesson09EF.Controllers
             return View(category);
         }
 
-        // POST: LpthCategories/Delete/5
-        [HttpPost, ActionName("Delete")]
+        // POST: LpthCategories/LpthDelete/5
+        [HttpPost, ActionName("LpthDelete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> LpthDeleteConfirmed(int lpthid)
         {
-            var category = await _context.Categories.FindAsync(id);
+            var category = await _context.Categories.FindAsync(lpthid);
             if (category != null)
             {
                 _context.Categories.Remove(category);
