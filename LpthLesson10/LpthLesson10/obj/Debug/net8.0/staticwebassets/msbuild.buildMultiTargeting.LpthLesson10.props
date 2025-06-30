@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LpthLesson10.props" />
+</Project>

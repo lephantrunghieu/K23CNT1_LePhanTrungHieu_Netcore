@@ -1,0 +1,71 @@
+﻿@model IEnumerable<LpthLesson10.Models.LpthPost>
+
+
+<div class="d-flex justify-content-between align-items-center mb-2">
+    <h1>
+        @{
+            ViewData["Title"] = "Index";
+        }
+    </h1>
+    <p>
+        <a asp-action="LpthCreate" class="btn btn-primary">Them Moi</a>
+    </p>
+</div>
+
+
+<table class="table table-bordered mt-2">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LpthStatus)
+            </th>
+            <th>Chuc nang</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthImage)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LpthContent)
+                </td>
+                <td>
+                    @if(item.LpthStatus==true){
+                        <span class="badge bg-success">Hien Thi</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-danger">Tam an</span>
+                    }
+
+
+            </td>
+            <td>
+                    <a asp-action="LpthEdit" asp-route-lpthId="@item.LpthId" class="btn btn-success">Edit</a>
+                    <a asp-action="LpthDetails" asp-route-lpthId="@item.LpthId" class="btn btn-info">Details</a>
+                    <a asp-action="LpthDelete" asp-route-lpthId="@item.LpthId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

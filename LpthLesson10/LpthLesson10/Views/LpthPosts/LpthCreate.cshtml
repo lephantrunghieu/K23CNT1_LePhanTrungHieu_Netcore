@@ -1,0 +1,48 @@
+﻿@model LpthLesson10.Models.LpthPost
+
+@{
+    ViewData["Title"] = "Thêm mới bài viết";
+}
+
+<h1>Create</h1>
+
+<h4>LpthPost</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LpthCreate" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="LpthTitle" class="control-label"></label>
+                <input asp-for="LpthTitle" class="form-control" type="file"/>
+                <span asp-validation-for="LpthTitle" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthImage" class="control-label"></label>
+                <input asp-for="LpthImage" class="form-control" />
+                <span asp-validation-for="LpthImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthContent" class="control-label"></label>
+                <input asp-for="LpthContent" class="form-control" />
+                <span asp-validation-for="LpthContent" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LpthStatus" class="control-label"></label>
+                <input asp-for="LpthStatus" class="form-control" />
+                <span asp-validation-for="LpthStatus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Ghi lai" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="LpthIndex">Quay lại danh sách</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
