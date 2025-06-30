@@ -1,0 +1,56 @@
+﻿@model LePhanTrungHieu_2310900036.Models.LpthEmployee
+
+@{
+    ViewData["Title"] = "Xóa nhân viên";
+}
+
+<div class="container mt-4">
+    <h2 class="text-danger mb-3">
+        <i class="bi bi-exclamation-triangle-fill"></i> Xác nhận xóa
+    </h2>
+
+    <div class="alert alert-warning" role="alert">
+        Bạn có chắc chắn muốn xóa nhân viên này không? Thao tác này không thể hoàn tác.
+    </div>
+
+    <div class="card shadow-sm mb-4">
+        <div class="card-header bg-light fw-bold">
+            Thông tin nhân viên
+        </div>
+        <div class="card-body">
+            <dl class="row">
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LpthEmpName)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.LpthEmpName)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LpthEmpLevel)</dt>
+                <dd class="col-sm-9">@Html.DisplayFor(model => model.LpthEmpLevel)</dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LpthEmpStartDate)</dt>
+                <dd class="col-sm-9">
+                    @(Model.LpthEmpStartDate.HasValue
+                        ? Model.LpthEmpStartDate.Value.ToString("dd/MM/yyyy")
+                        : "Chưa có ngày bắt đầu")
+                </dd>
+
+                <dt class="col-sm-3">@Html.DisplayNameFor(model => model.LpthEmpStatus)</dt>
+                <dd class="col-sm-9">
+                    @(Model.LpthEmpStatus.HasValue
+                        ? (Model.LpthEmpStatus.Value ? "Hiển thị" : "Ẩn")
+                        : "Không xác định")
+                </dd>
+            </dl>
+        </div>
+    </div>
+
+    <form asp-action="LpthDelete">
+        <input type="hidden" asp-for="LpthEmpId" />
+        <div class="d-flex gap-2">
+            <button type="submit" class="btn btn-danger">
+                <i class="bi bi-trash-fill"></i> Xóa
+            </button>
+            <a asp-action="LpthIndex" class="btn btn-secondary">
+                <i class="bi bi-arrow-left-circle"></i> Quay lại danh sách
+            </a>
+        </div>
+    </form>
+</div>

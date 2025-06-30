@@ -1,0 +1,48 @@
+﻿@model LePhanTrungHieu_2310900036.Models.LpthEmployee
+
+@{
+    ViewData["Title"] = "Chi tiết nhân viên";
+}
+
+<h2 class="text-info">Chi tiết nhân viên</h2>
+<hr />
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.LpthEmpName)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.LpthEmpName)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.LpthEmpLevel)
+        </dt>
+        <dd class="col-sm-9">
+            @Html.DisplayFor(model => model.LpthEmpLevel)
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.LpthEmpStartDate)
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.LpthEmpStartDate.HasValue
+                ? Model.LpthEmpStartDate.Value.ToString("dd/MM/yyyy")
+                : "Chưa có ngày bắt đầu")
+        </dd>
+
+        <dt class="col-sm-3">
+            @Html.DisplayNameFor(model => model.LpthEmpStatus)
+        </dt>
+        <dd class="col-sm-9">
+            @(Model.LpthEmpStatus.HasValue
+                ? (Model.LpthEmpStatus.Value ? "Hiển thị" : "Ẩn")
+                : "Không xác định")
+        </dd>
+    </dl>
+</div>
+
+<div class="mt-3">
+    <a asp-action="LpthEdit" asp-route-id="@Model.LpthEmpId" class="btn btn-warning">Sửa</a>
+    <a asp-action="LpthIndex" class="btn btn-secondary">Quay lại</a>
+</div>
